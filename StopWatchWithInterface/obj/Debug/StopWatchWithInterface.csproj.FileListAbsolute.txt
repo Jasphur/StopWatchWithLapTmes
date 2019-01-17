@@ -1,0 +1,15 @@
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\bin\Debug\StopWatchWithInterface.exe.config
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\bin\Debug\StopWatchWithInterface.exe
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\bin\Debug\StopWatchWithInterface.pdb
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.csprojAssemblyReference.cache
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\MainWindow.g.cs
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\App.g.cs
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface_MarkupCompile.cache
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface_MarkupCompile.lref
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\MainWindow.baml
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.g.resources
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.Properties.Resources.resources
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.csproj.GenerateResource.cache
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.csproj.CoreCompileInputs.cache
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.exe
+C:\Projects\Grappen\StopWatchWithInterfaceSolution\StopWatchWithInterface\obj\Debug\StopWatchWithInterface.pdb

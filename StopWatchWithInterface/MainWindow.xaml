@@ -1,0 +1,30 @@
+﻿<Window x:Class="StopWatchWithInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StopWatchWithInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="520.8" Width="401.986">
+    <Grid Width="392" HorizontalAlignment="Center" Margin="0,0,3.2,0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="95*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Button Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="ButtonStart_Click" Height="19" Margin="37,159,0,0"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="120,159,0,0" VerticalAlignment="Top" Width="75" Click="ButtonStop_Click" Height="19"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="3.4,159,0,0" VerticalAlignment="Top" Width="75" Click="ButtonReset_Click" Height="19" Grid.Column="1"/>
+        <Button Content="Lap" HorizontalAlignment="Left" Margin="89.4,159,0,0" VerticalAlignment="Top" Width="75" Click="ButtonLapTime_Click" Height="19" Grid.Column="1"/>
+
+        <TextBox Name="LapTimeBoxLap" HorizontalAlignment="Center" Margin="12.4,251,13,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="230" Width="165" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" VerticalScrollBarVisibility="Auto" BorderBrush="White" IsReadOnly="True" FontStyle="Italic" AcceptsReturn="True" Grid.Column="1"/>
+        <TextBox Name="TotalTimeBox" HorizontalAlignment="Center" Margin="20,251,16.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="230" Width="165" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" VerticalScrollBarVisibility="Auto" BorderBrush="White" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="62,219,0,0" TextWrapping="Wrap" Text="Total time:" VerticalAlignment="Top" Height="32" Width="69"/>
+
+        <TextBlock Name="StopwatchLapTime" HorizontalAlignment="Center" Margin="103,43,95,417" TextWrapping="Wrap" Text="00:00,00" VerticalAlignment="Center" Height="31" Width="194" FontSize="18" FontWeight="Bold" TextAlignment="Center" FontStyle="Italic" Grid.ColumnSpan="2"/>
+        <TextBlock Name="StopwatchTime" HorizontalAlignment="Center" Margin="112,79,86,348" TextWrapping="Wrap" Text="00:00,00" VerticalAlignment="Center" Height="64" Width="194" FontSize="48" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="57.4,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="69" Grid.Column="1"><Run Text="Lap"/><Run Text=" "/><Run Text="times:"/></TextBlock>
+
+    </Grid>
+</Window>
